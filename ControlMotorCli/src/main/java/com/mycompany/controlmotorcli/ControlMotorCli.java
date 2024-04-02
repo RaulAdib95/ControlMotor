@@ -30,7 +30,7 @@ public class ControlMotorCli {
                 case "2" -> System.out.println("Estado del motor: Girando en sentido horario");
                 case "3" -> System.out.println("Estado del motor: Detenido");
                 case "4" -> System.out.println("Saliendo...");
-                default -> System.out.println("Opcio77n invalida. Intentelo de nuevo.");
+                default -> System.out.println("Opcion invalida. Intentelo de nuevo.");
             }
         } while (!opcion.equals("4"));
 
